@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.akhikhl.gretty:gretty-core:1.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/1.4.0/27b02e4715ba11b73098c7ed8f3457975536624e/gretty-core-1.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.akhikhl.gretty/gretty-core/1.4.0/3a18c6a31d519c7dd7e21257ffc37ab934ed5c97/gretty-core-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

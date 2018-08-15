@@ -1,0 +1,50 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : io.pivotal.workshop : spring-web-mvc-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/spring-web-mvc-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/spring-web-mvc-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-web-mvc_main/web/Web Gradle : spring-web-mvc-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-web-mvc_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.23" />
+          <element id="library" level="project" name="Gradle: org.akhikhl.gretty:gretty:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.akhikhl.gretty:gretty-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-devtools:1.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-loader-tools:1.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-dependency-tools:1.2.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-util:8.1.8.v20121106" />
+          <element id="library" level="project" name="Gradle: commons-configuration:commons-configuration:1.10" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-json:2.4.5" />
+          <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy:2.4.5" />
+          <element id="library" level="project" name="Gradle: commons-cli:commons-cli:1.2" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.3.2" />
+          <element id="library" level="project" name="Gradle: org.apache.servicemix.bundles:org.apache.servicemix.bundles.bcprov-jdk16:1.46_3" />
+          <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
