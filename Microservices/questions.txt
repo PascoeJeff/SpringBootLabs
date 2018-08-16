@@ -1,0 +1,6 @@
+1. You would need to update the configuration property 'directory.url' to the new URL that directory-service is using. 'directory.url' is located in the employee-client app's application.properties file. 
+2. The employee-client makes an HTTP request when it needs to access some data from directory-service. The messages go outside and return. 
+3. Yes we could update these apps to use a RabbitMQ.
+4. We can avoid having to do a restage by not making any updates to the application between restarts.
+5. Yes we can add a blue-green deployment using PCF.   
+6. Using PCF we can first push a version of our app with the name 'Blue' and then a second version with the name 'Green'. The 'Green' version of our app should use a different temporary subdomain than the Blue version. Then we map all requests to our Green version and finally unmap the route to 'Blue' and the temporary route that originally pointed to 'Green'.

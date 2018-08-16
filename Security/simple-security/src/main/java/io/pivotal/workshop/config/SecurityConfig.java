@@ -16,13 +16,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     protected void configureUser(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-                .withUser("billy")
-                .password("bob")
-                .roles("USER")
+                .withUser("billy").password("bob").roles("USER")
                 .and()
-                .withUser("admin")
-                .password("password")
-                .roles("ADMIN");
+                .withUser("admin").password("password").roles("ADMIN");
     }
 
     // We do not want the default behavior of form authentication

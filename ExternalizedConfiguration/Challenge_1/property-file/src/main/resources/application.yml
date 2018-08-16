@@ -1,0 +1,7 @@
+custom:
+  message: "Hello Spring Boot!"
+
+secondMessage: "This is a custom message!"
+
+
+
